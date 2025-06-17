@@ -4,7 +4,7 @@ const playBtn = document.getElementById('play');
 const nextBtn = document.getElementById('next');
 const prevBtn = document.getElementById('previous');
 const profile= document.getElementById('profile');
-const Info= document.getElementById('info');
+const info= document.getElementById('info');
 const post= document.getElementById('post');
 const nextdev= document.getElementById('devn');
 const prevdev= document.getElementById('devp');
@@ -20,16 +20,16 @@ const dev=[
 function loadprofile(index){
   profile.src=dev[index].pro;
   post.textContent=dev[index].pos;
-  Info.textContent=dev[index].info;
+  info.textContent=dev[index].info;
   naam.textContent=dev[index].naaam;
 }
 
 const songs = [
-  { name: "Tell  em", file: "songs/Tell em.mp3"},
-  { name: "Celestrial  warrior", file: "songs/song2.mp3"},
-  { name: "Lock in", file: "songs/lock in.mp3"},
-  { name: "Lobster", file: "songs/lobster.mp3"},
-  { name: "Surrender", file: "songs/surrender.mp3"}
+  { name: "Tell  em", file: "*/songs/Tell em.mp3"},
+  { name: "Celestrial  warrior", file: "*/songs/song2.mp3"},
+  { name: "Lock in", file: "*/songs/lock in.mp3"},
+  { name: "Lobster", file: "*/songs/lobster.mp3"},
+  { name: "Surrender", file: "*/songs/surrender.mp3"}
 ];
 let songIndex = 0;
 function loadSong(index) {

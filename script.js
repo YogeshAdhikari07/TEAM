@@ -25,11 +25,11 @@ function loadprofile(index){
 }
 
 const songs = [
-  { name: "Tell  em", file: "*/songs/Tell em.mp3"},
-  { name: "Celestrial  warrior", file: "*/songs/song2.mp3"},
-  { name: "Lock in", file: "*/songs/lock in.mp3"},
-  { name: "Lobster", file: "*/songs/lobster.mp3"},
-  { name: "Surrender", file: "*/songs/surrender.mp3"}
+  { name: "Tell  em", file: "songs/Tell em.mp3"},
+  { name: "Celestrial  warrior", file: "songs/song2.mp3"},
+  { name: "Lock in", file: "songs/lock in.mp3"},
+  { name: "Lobster", file: "songs/lobster.mp3"},
+  { name: "Surrender", file: "songs/surrender.mp3"}
 ];
 let songIndex = 0;
 function loadSong(index) {
